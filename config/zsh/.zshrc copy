@@ -1,0 +1,29 @@
+# ~/.zshrc
+
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
+export EDITOR=nvim
+
+# Starship prompt
+eval "$(starship init zsh)"
+
+# FZF integration
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Aliases
+alias k='kubectl'
+alias kns='kubectl config set-context --current --namespace'
+alias ks='kubectl get pods -o wide'
+alias kx='kubectl config use-context'
+alias g='git'
+alias vim='nvim'
+alias lg='lazygit'
+
+# Go helpers
+alias gtidy='go mod tidy && goimports -w .'
+alias grun='go run main.go'
+alias gtest='go test ./... -v'
+
+# Load additional scripts if any
+[ -f ~/.zsh_local ] && source ~/.zsh_local
