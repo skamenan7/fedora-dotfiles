@@ -25,6 +25,7 @@ fi
 unset rc
 alias c="clear"
 alias wp="warp-terminal"
+alias cursor="/usr/local/sbin/cur"  # Use actual Cursor app
 export PATH="/home/skamenan/.npm-global/bin:$PATH"
 
 # Custom prompt configuration
@@ -119,8 +120,14 @@ gwt() {
       stashed=true
     fi
     
-    # Switch to main and sync
+    # Switch to main and reset to clean state
     git checkout main 2>/dev/null || git checkout master 2>/dev/null
+    
+    echo "🧹 Resetting main to clean state..."
+    git reset --hard HEAD
+    git clean -fd
+    
+    # Sync with upstream
     if git remote | grep -q upstream; then
       git pull upstream main --rebase 2>/dev/null || git pull upstream master --rebase 2>/dev/null
       git push origin HEAD 2>/dev/null || true
@@ -151,6 +158,20 @@ gwt() {
     echo "✨ Creating new branch '$branch' from main"
     main_branch=$(git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null | sed 's@^refs/remotes/origin/@@' || echo "main")
     git worktree add "$worktree_dir" -b "$branch" "$main_branch"
+  fi
+
+  # Copy .cursor/rules.md into the new worktree so Cursor rules are always present
+  if [ -f "$repo_root/.cursor/rules.md" ]; then
+    echo "📜 Copying .cursor/rules.md into new worktree"
+    mkdir -p "$worktree_dir/.cursor"
+    cp "$repo_root/.cursor/rules.md" "$worktree_dir/.cursor/rules.md"
+  fi
+
+  # Copy Super_Claude_Docs.md into new worktree so Cursor has extended docs
+  if [ -f "$HOME/.cursor/Super_Claude_Docs.md" ]; then
+    echo "📜 Copying Super_Claude_Docs.md into new worktree"
+    mkdir -p "$worktree_dir/.cursor"
+    cp "$HOME/.cursor/Super_Claude_Docs.md" "$worktree_dir/.cursor/Super_Claude_Docs.md"
   fi
 
   echo "🚀 Opening worktree in Cursor..."
@@ -285,3 +306,5 @@ gwt-pr() {
 }
 
 export CLIPBOARD_SELECTION=clipboard
+
+# Test: symbolic link sync working!
