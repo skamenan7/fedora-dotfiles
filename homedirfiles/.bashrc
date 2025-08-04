@@ -23,9 +23,29 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+gcl() {
+  echo "$ gh api \"/users/\$(gh api user --jq .login)/events\" --jq '[.[] | select(.type == \"IssueCommentEvent\")][0:5][] | \"\\(.created_at | strptime(\"%Y-%m-%dT%H:%M:%SZ\") | strftime(\"%Y-%m-%d %I:%M:%S %p EST/EDT\")) - \\(.actor.login) - \\(.payload.comment.html_url)\"'"
+  echo
+  local comment_data
+  comment_data=$(gh api "/users/$(gh api user --jq .login)/events" --jq '[.[] | select(.type == "IssueCommentEvent")][0:5][] | "\(.created_at | strptime("%Y-%m-%dT%H:%M:%SZ") | strftime("%Y-%m-%d %I:%M:%S %p EST/EDT")) - \(.actor.login) - \(.payload.comment.html_url)"')
+  echo "$comment_data"
+}
+
 alias c="clear"
+alias ll="ls -l"
+alias la="ls -la"
+alias l="ls -CF"
+alias lsd="ls -d */"
+alias lla="ls -la"
+alias llt="ls -lt"
+alias lltc="ls -ltc"
+alias lld="ls -ld"
+alias lltu="ls -ltu"
+alias lltS="ls -ltS"
 alias wp="warp-terminal"
 alias cursor="/usr/local/sbin/cur"  # Use actual Cursor app
+alias llsd="cd ~/git/code/llama-stack"
 export PATH="/home/skamenan/.npm-global/bin:$PATH"
 
 # Custom prompt configuration
@@ -308,3 +328,26 @@ gwt-pr() {
 export CLIPBOARD_SELECTION=clipboard
 
 # Test: symbolic link sync working!
+export CLAUDE_CODE_USE_VERTEX=1
+export CLOUD_ML_REGION=us-east5
+export ANTHROPIC_VERTEX_PROJECT_ID=itpc-gcp-ai-eng-claude
+export PATH=$PATH:$HOME/.npm-global/bin
+
+# Check llama-stack PR status and tests
+lmpr() {
+    local pr_number=$1
+    
+    if [ -z "$pr_number" ]; then
+        echo "Usage: lmpr <PR_NUMBER>"
+        echo "Example: lmpr 2993"
+        return 1
+    fi
+    
+    echo "🔍 Checking llama-stack PR #$pr_number..."
+    
+    # Get PR status and CI checks
+    gh pr view $pr_number --repo meta-llama/llama-stack --json title,state,mergeable,statusCheckRollup
+    
+    echo -e "\n📊 Test Status:"
+    gh pr checks $pr_number --repo meta-llama/llama-stack
+}
