@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Complete Step 0: Root Cause Analysis - Reproduce original Llama-4 tool calling 500 error",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Capture complete stack trace showing exact failure point",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Document why this fails for Llama-4 but works for Llama-3",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Identify specific import/dependency that breaks in minimal environments",
+    "status": "pending",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Create before/after comparison showing error and fix",
+    "status": "pending",
+    "priority": "high",
+    "id": "5"
+  }
+]

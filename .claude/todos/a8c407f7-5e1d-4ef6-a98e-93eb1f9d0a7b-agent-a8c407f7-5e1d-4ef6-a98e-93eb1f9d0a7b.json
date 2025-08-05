@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create 03_functional_programming.py example file",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create 04_metaprogramming.py example file",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create 05_performance_optimization.py example file",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Create tests for the Python idioms examples",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Create exercises for hands-on practice",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  }
+]

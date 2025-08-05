@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Parse the GitHub issue content to identify all sub-issues",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Filter sub-issues to find unassigned ones",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Format and present the unassigned sub-issues list",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

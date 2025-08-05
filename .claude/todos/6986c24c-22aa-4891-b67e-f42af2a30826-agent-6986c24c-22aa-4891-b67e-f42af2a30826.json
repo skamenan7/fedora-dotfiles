@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Review current implementation in local worktree",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check for documentation inconsistencies",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Verify system default implementation",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Validate test coverage for defaults",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

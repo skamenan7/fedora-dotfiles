@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Copy pr-reviewer.md to active agents directory",
+    "status": "completed",
+    "priority": "high",
+    "id": "copy-pr-reviewer"
+  },
+  {
+    "content": "Copy github-issue-explainer.md to active agents directory",
+    "status": "completed",
+    "priority": "high",
+    "id": "copy-github-issue-explainer"
+  },
+  {
+    "content": "Verify all agents are working correctly",
+    "status": "completed",
+    "priority": "medium",
+    "id": "verify-agents"
+  }
+]

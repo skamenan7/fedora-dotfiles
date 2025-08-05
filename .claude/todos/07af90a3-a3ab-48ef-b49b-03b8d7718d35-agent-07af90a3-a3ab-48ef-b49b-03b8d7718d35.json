@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Review tool_runtime.py implementation",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Review __init__.py telemetry dependency",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Check for any missing imports or issues",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Verify metric construction patterns",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

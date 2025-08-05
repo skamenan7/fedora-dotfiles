@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Check what specific error is causing the revert to fail",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Identify conflicts in modified files (MM status)",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Resolve conflicts and complete the revert",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Fix large file issue with tokenizer.model",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Fix ruff linting error for type parameters",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  }
+]

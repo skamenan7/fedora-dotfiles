@@ -1,0 +1,77 @@
+{
+	"private": false,
+	"name": "python-docstring-highlighter",
+	"displayName": "Python Docstring Highlighter",
+	"description": "Syntax highlighting for python docstring.",
+	"icon": "assets/icon.png",
+	"version": "0.2.4",
+	"keywords": [
+		"python",
+		"docstring",
+		"highlighter",
+		"google",
+		"numpy",
+		"sphinx",
+		"markdown",
+		"md",
+		"restructuredtext",
+		"rest"
+	],
+	"author": {
+		"name": "Rodolphe Barbanneau",
+		"email": "rodolphe.barbanneau@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rodolphebarbanneau/python-docstring-highlighter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rodolphebarbanneau/python-docstring-highlighter/issues"
+	},
+	"engines": {
+		"vscode": "^1.65.2"
+	},
+	"publisher": "rodolphebarbanneau",
+	"categories": [
+		"Programming Languages",
+		"Themes",
+		"Visualization"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"scopeName": "source.docstring.python",
+				"path": "./syntaxes/base.tmLanguage.json",
+				"injectTo": [
+					"source.python"
+				]
+			},
+			{
+				"scopeName": "source.docstring.google.python",
+				"path": "./syntaxes/google.tmLanguage.json",
+				"injectTo": [
+					"source.python"
+				]
+			},
+			{
+				"scopeName": "source.docstring.numpy.python",
+				"path": "./syntaxes/numpy.tmLanguage.json",
+				"injectTo": [
+					"source.python"
+				]
+			},
+			{
+				"scopeName": "source.docstring.sphinx.python",
+				"path": "./syntaxes/sphinx.tmLanguage.json",
+				"injectTo": [
+					"source.python"
+				]
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1754319993123,
+		"targetPlatform": "universal",
+		"size": 744270
+	}
+}

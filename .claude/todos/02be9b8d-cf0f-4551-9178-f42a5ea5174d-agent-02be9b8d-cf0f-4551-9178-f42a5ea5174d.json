@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Set up local Llama4 model for reproducing chat_format.py issue",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create step-by-step reproduction guide",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Analyze 3-file ChatFormat solution architecture",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  }
+]

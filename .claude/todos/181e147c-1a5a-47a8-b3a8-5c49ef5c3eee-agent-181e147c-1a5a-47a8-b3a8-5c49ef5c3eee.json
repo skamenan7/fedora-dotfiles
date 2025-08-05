@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Explore project structure and key configuration files",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Analyze build system, package management, and tooling",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Understand code architecture and core components",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Review existing documentation and rules files",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Create comprehensive CLAUDE.md file",
+    "status": "pending",
+    "priority": "high",
+    "id": "5"
+  }
+]

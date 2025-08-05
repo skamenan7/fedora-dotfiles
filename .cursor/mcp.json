@@ -1,0 +1,76 @@
+{
+  "mcpServers": {
+    "github-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@andrebuzeli/github-mcp-v2@latest"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "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"
+      }
+    },
+    "gha": { // alias for github-mcp
+      "command": "npx",
+      "args": ["-y", "@andrebuzeli/github-mcp-v2@latest"],
+      "env": {
+        "GITHUB_TOKEN": "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"
+      }
+    },
+    "github-lightweight": {
+      "command": "npx", 
+      "args": [
+        "-y",
+        "@wipiano/github-mcp-lightweight@latest"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "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"
+      }
+    },
+    "ghl": { // alias for github-lightweight
+      "command": "npx",
+      "args": ["-y", "@wipiano/github-mcp-lightweight@latest"],
+      "env": {
+        "GITHUB_TOKEN": "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"
+      }
+    },
+    
+      "github": {
+        "url": "https://api.githubcopilot.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer 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"
+        },
+        "type": "http"
+      },
+      "gi": { // alias for github http API
+        "url": "https://api.githubcopilot.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer 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"
+        },
+        "type": "http"
+      },
+      "firecrawl-mcp": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-7383e1fedbb3441aaa9402f7619f373a"
+      }
+    },
+    "fw": { // alias for firecrawl
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-7383e1fedbb3441aaa9402f7619f373a"
+      }
+    },
+    "ctx": { // alias for context7
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    }
+    
+  }
+}

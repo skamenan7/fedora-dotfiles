@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Search for LiteLLM routing logic and configuration in the codebase",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Examine LiteLLMOpenAIMixin base class and model prefix handling",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Find examples of how other providers use LiteLLM routing (AWS Bedrock, OpenAI, etc.)",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Search for existing vertex_ai references in the codebase",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Analyze LiteLLM integration code for model prefix handling, routing, and authentication patterns",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  }
+]

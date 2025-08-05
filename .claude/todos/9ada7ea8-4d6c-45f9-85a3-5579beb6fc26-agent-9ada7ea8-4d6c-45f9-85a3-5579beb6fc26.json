@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Review git status and staged changes",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check cursor rules for code quality standards",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Review prompting.md for guidelines",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Analyze modified files for compliance",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Provide commit readiness assessment",
+    "status": "pending",
+    "priority": "high",
+    "id": "5"
+  }
+]

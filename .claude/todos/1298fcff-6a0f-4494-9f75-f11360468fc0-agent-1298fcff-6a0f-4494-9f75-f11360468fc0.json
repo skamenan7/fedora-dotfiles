@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Set up oc client authentication with the OpenShift cluster",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Explore available demos in the llama-stack-demos repository",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Deploy and run demos on the OpenShift cluster",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

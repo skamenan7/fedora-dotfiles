@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Start vLLM server with Llama-3.2-8B-Instruct on port 8000",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Verify vLLM is responding",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Check Llama Stack container connects to vLLM",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Test the complete setup",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  }
+]

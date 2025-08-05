@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Check current Expanso installation status",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Identify specific issue with Expanso",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Provide troubleshooting steps or reinstallation guidance",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

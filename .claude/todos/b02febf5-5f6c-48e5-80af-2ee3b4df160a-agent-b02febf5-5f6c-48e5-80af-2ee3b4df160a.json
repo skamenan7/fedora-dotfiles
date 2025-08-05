@@ -1,0 +1,44 @@
+[
+  {
+    "content": "Update branch to latest main",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create VectorStoreConfig model in llama_stack/apis/common/vector_store_config.py",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Integrate VectorStoreConfig into StackRunConfig",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Update vector_io router with precedence logic",
+    "status": "pending",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Create unit tests for VectorStoreConfig",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Update template configurations",
+    "status": "pending",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Create integration tests",
+    "status": "pending",
+    "priority": "medium",
+    "id": "7"
+  }
+]
