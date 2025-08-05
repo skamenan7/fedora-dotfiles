@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Examine the agent metrics implementation and integration test",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Find how to run the metrics locally",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Check API endpoints for agent interactions",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Show how to trigger metrics via Postman",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  }
+]

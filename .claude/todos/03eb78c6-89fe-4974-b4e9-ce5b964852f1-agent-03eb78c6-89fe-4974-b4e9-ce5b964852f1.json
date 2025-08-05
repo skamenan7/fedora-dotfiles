@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Fix the dynamic model registration pattern in together.py",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Ensure proper handling of ImportError when importing MODEL_ENTRIES",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  }
+]

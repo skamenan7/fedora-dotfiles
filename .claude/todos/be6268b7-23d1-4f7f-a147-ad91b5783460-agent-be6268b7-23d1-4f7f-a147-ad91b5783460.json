@@ -1,0 +1,50 @@
+[
+  {
+    "content": "Create Protocol-Based Design tutorial",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create Provider Pattern tutorial",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create Configuration & Schema Management tutorial",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Create Async/Await Patterns tutorial",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Create Middleware Architecture tutorial",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Create Error Handling & Observability tutorial",
+    "status": "pending",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Create Testing Patterns tutorial",
+    "status": "pending",
+    "priority": "low",
+    "id": "7"
+  },
+  {
+    "content": "Create Python Idioms tutorial",
+    "status": "pending",
+    "priority": "low",
+    "id": "8"
+  }
+]

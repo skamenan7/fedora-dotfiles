@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Review all modified config files for consistency and completeness",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check router implementation for embedding model selection logic",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Validate utility functions for embedding model lookup",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Check test coverage and implementation",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Run linting and type checking",
+    "status": "completed",
+    "priority": "low",
+    "id": "5"
+  }
+]

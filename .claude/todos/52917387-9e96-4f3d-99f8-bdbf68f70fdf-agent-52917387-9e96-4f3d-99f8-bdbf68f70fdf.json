@@ -1,0 +1,44 @@
+[
+  {
+    "content": "Investigate failing PR #2993 and identify issues",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check PR title and description formatting",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Review any CI/CD failures or validation errors",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Check unit test failures locally",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Fix PR title to follow conventional commits format",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Rebase branch on main to resolve policy parameter conflict",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  },
+  {
+    "content": "Push rebased branch to remote",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  }
+]

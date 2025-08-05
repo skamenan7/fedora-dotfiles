@@ -1,0 +1,76 @@
+{
+  "mcpServers": {
+    "github-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@andrebuzeli/github-mcp-v2@latest"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    },
+    "gha": { // alias for github-mcp
+      "command": "npx",
+      "args": ["-y", "@andrebuzeli/github-mcp-v2@latest"],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    },
+    "github-lightweight": {
+      "command": "npx", 
+      "args": [
+        "-y",
+        "@wipiano/github-mcp-lightweight@latest"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    },
+    "ghl": { // alias for github-lightweight
+      "command": "npx",
+      "args": ["-y", "@wipiano/github-mcp-lightweight@latest"],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    },
+    
+      "github": {
+        "url": "https://api.githubcopilot.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer ${env:GITHUB_TOKEN}"
+        },
+        "type": "http"
+      },
+      "gi": { // alias for github http API
+        "url": "https://api.githubcopilot.com/mcp/",
+        "headers": {
+          "Authorization": "Bearer ${env:GITHUB_TOKEN}"
+        },
+        "type": "http"
+      },
+      "firecrawl-mcp": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "${env:FIRECRAWL_API_KEY}"
+      }
+    },
+    "fw": { // alias for firecrawl
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "${env:FIRECRAWL_API_KEY}"
+      }
+    },
+    "ctx": { // alias for context7
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    }
+    
+  }
+}

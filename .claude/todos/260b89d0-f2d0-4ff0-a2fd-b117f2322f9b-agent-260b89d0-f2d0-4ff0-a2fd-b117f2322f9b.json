@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Search for template files that might need updates for default configuration",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Review PR comments to understand what changes are needed",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Check template files for global vector store configuration",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Update Python template files to use new default embedding model",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  }
+]

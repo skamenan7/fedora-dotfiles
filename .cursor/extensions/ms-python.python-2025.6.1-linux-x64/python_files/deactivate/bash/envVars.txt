@@ -1,0 +1,123 @@
+SHELL=/bin/bash
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3259,unix/unix:/tmp/.ICE-unix/3259
+COLORTERM=truecolor
+PYENV_SHELL=bash
+HISTCONTROL=ignoreboth
+XDG_MENU_PREFIX=gnome-
+TERM_PROGRAM_VERSION=1.2.4
+HISTSIZE=10000
+HOSTNAME=skamenan-thinkpadp1gen7.rht.csb
+PERLLIB=/tmp/.mount_curIZ3eCi/usr/share/perl5/:/tmp/.mount_curIZ3eCi/usr/lib/perl5/:
+FPATH=/usr/share/lmod/lmod/init/ksh_funcs
+SSH_AUTH_SOCK=/run/user/4240137/keyring/ssh
+ARGV0=cur
+WARP_USE_SSH_WRAPPER=1
+HISTTIMEFORMAT=%F %T 
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=gnome
+NO_AT_BRIDGE=1
+GPG_TTY=/dev/pts/17
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+EDITOR=/usr/bin/nano
+KRB5CCNAME=KCM:
+PWD=/home/skamenan/.cursor/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash
+PYENV_VIRTUALENV_INIT=1
+GSETTINGS_SCHEMA_DIR=/tmp/.mount_curIZ3eCi/usr/share/glib-2.0/schemas/:
+LOGNAME=skamenan
+XDG_SESSION_DESKTOP=gnome
+XDG_SESSION_TYPE=wayland
+MODULESHOME=/usr/share/lmod/lmod
+MANPATH=/usr/share/lmod/lmod/share/man:
+SYSTEMD_EXEC_PID=3324
+XAUTHORITY=/run/user/4240137/.mutter-Xwaylandauth.HZS292
+VSCODE_GIT_ASKPASS_NODE=/tmp/.mount_curIZ3eCi/usr/share/cursor/cursor
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+GDM_LANG=en_US.UTF-8
+HOME=/home/skamenan
+USERNAME=skamenan
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+XDG_CURRENT_DESKTOP=GNOME
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-4240137.slice/user@4240137.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
+WAYLAND_DISPLAY=wayland-0
+LMOD_SETTARG_FULL_SUPPORT=no
+WARP_HONOR_PS1=0
+GIT_ASKPASS=/tmp/.mount_curIZ3eCi/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh
+SSH_SOCKET_DIR=~/.ssh
+INVOCATION_ID=c517298745f64b568b4c8c7e7c9efd9f
+LMOD_VERSION=8.7.58
+MANAGERPID=2935
+CHROME_DESKTOP=cursor.desktop
+APPDIR=/tmp/.mount_curIZ3eCi
+GJS_DEBUG_OUTPUT=stderr
+MODULEPATH_ROOT=/usr/share/modulefiles
+MOZ_GMP_PATH=/usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+GNOME_SETUP_DISPLAY=:1
+XDG_SESSION_CLASS=user
+LMOD_PKG=/usr/share/lmod/lmod
+TERM=xterm-256color
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=skamenan
+VSCODE_GIT_IPC_HANDLE=/run/user/4240137/vscode-git-f1c86c3ebc.sock
+OWD=/home/skamenan/git/code/llama-stack/.worktrees/fix-2729-vector-io-embedding-config
+DISPLAY=:0
+LMOD_ROOT=/usr/share/lmod
+SHLVL=1
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+LMOD_sys=Linux
+QT_IM_MODULE=ibus
+LD_LIBRARY_PATH=/tmp/.mount_curIZ3eCi/usr/lib/:/tmp/.mount_curIZ3eCi/usr/lib32/:/tmp/.mount_curIZ3eCi/usr/lib64/:/tmp/.mount_curIZ3eCi/lib/:/tmp/.mount_curIZ3eCi/lib/i386-linux-gnu/:/tmp/.mount_curIZ3eCi/lib/x86_64-linux-gnu/:/tmp/.mount_curIZ3eCi/lib/aarch64-linux-gnu/:/tmp/.mount_curIZ3eCi/lib32/:/tmp/.mount_curIZ3eCi/lib64/:
+APPIMAGE=/home/skamenan/Tools/Cursor-1.1.6-x86_64.AppImage
+XDG_RUNTIME_DIR=/run/user/4240137
+PYENV_ROOT=/home/skamenan/.pyenv
+DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ 
+WARP_IS_LOCAL_SHELL_SESSION=1
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+VSCODE_GIT_ASKPASS_MAIN=/tmp/.mount_curIZ3eCi/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js
+JOURNAL_STREAM=9:29194
+XDG_DATA_DIRS=/tmp/.mount_curIZ3eCi/usr/share/:/usr/local/share:/usr/share:/home/skamenan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+GDK_BACKEND=x11
+PATH=/home/skamenan/.pyenv/versions/3.12.11/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/tmp/.mount_curIZ3eCi/usr/bin/:/tmp/.mount_curIZ3eCi/usr/sbin/:/tmp/.mount_curIZ3eCi/usr/games/:/tmp/.mount_curIZ3eCi/bin/:/tmp/.mount_curIZ3eCi/sbin/:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.local/bin:/home/skamenan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.pyenv/versions/3.12.11/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/tmp/.mount_curIZ3eCi/usr/bin/:/tmp/.mount_curIZ3eCi/usr/sbin/:/tmp/.mount_curIZ3eCi/usr/games/:/tmp/.mount_curIZ3eCi/bin/:/tmp/.mount_curIZ3eCi/sbin/:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.local/bin:/home/skamenan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/tmp/.mount_curIZ3eCi/usr/bin/:/tmp/.mount_curIZ3eCi/usr/sbin/:/tmp/.mount_curIZ3eCi/usr/games/:/tmp/.mount_curIZ3eCi/bin/:/tmp/.mount_curIZ3eCi/sbin/:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.pyenv/plugins/pyenv-virtualenv/shims:/home/skamenan/.pyenv/bin:/home/skamenan/.npm-global/bin:/home/skamenan/.local/bin:/home/skamenan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+MODULEPATH=/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+GDMSESSION=gnome
+ORIGINAL_XDG_CURRENT_DESKTOP=GNOME
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/4240137/bus
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+MAIL=/var/spool/mail/skamenan
+QT_PLUGIN_PATH=/tmp/.mount_curIZ3eCi/usr/lib/qt4/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_curIZ3eCi/usr/lib32/qt4/plugins/:/tmp/.mount_curIZ3eCi/usr/lib64/qt4/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/qt5/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_curIZ3eCi/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_curIZ3eCi/usr/lib32/qt5/plugins/:/tmp/.mount_curIZ3eCi/usr/lib64/qt5/plugins/:
+GIO_LAUNCHED_DESKTOP_FILE_PID=5110
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/dev.warp.Warp.desktop
+OLDPWD=/home/skamenan
+TERM_PROGRAM=vscode
+CURSOR_TRACE_ID=a7cfd86e9ba947f8842ac8c79653fa88
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+_=/bin/python

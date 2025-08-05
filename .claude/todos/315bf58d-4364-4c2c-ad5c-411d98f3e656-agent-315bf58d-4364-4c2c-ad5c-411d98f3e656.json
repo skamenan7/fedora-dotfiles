@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Analyze PR overview and changes scope",
+    "status": "completed",
+    "priority": "high",
+    "id": "review-pr-overview"
+  },
+  {
+    "content": "Review RequestMetricsMiddleware implementation for correctness",
+    "status": "completed",
+    "priority": "high",
+    "id": "review-middleware-implementation"
+  },
+  {
+    "content": "Review server.py integration changes",
+    "status": "completed",
+    "priority": "medium",
+    "id": "review-integration-changes"
+  },
+  {
+    "content": "Review telemetry.md documentation updates",
+    "status": "completed",
+    "priority": "medium",
+    "id": "review-documentation"
+  },
+  {
+    "content": "Identify potential issues and improvements",
+    "status": "completed",
+    "priority": "high",
+    "id": "identify-issues"
+  }
+]

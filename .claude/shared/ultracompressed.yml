@@ -1,0 +1,14 @@
+# UltraCompressed Mode - Default Configuration
+Default_Activation:
+  auto_trigger: true
+  context_threshold: 0  # Set to 0 to always activate (instead of 70%)
+  token_budget: "minimal"  # Always use minimal tokens
+  
+Compression_Rules:
+  symbols: true          # Use → & @ + - symbols
+  abbreviations: true    # Use cfg, fn, impl, etc.
+  format_preference: "YAML>JSON>tables>lists>prose"
+  telegram_style: true   # Remove articles/conjunctions
+  
+Default_Flags:
+  ultracompressed: true  # Make --uc default for all commands

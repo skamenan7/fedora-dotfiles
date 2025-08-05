@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Create symbolic link from dotfiles to home .bashrc",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Test that changes sync automatically",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  }
+]

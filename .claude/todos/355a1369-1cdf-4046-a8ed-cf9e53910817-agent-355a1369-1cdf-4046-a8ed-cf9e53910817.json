@@ -1,0 +1,56 @@
+[
+  {
+    "content": "Fix incomplete research-agent.md",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Standardize all agents to YAML frontmatter format",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create testing-agent.md with Python/Go focus",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Create documentation-agent.md",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Create deployment-agent.md with Kubernetes focus",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Create security-agent.md with Python/Go/K8s focus",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Create performance-agent.md",
+    "status": "completed",
+    "priority": "medium",
+    "id": "7"
+  },
+  {
+    "content": "Enhance existing agents with Python/Go/K8s specifics",
+    "status": "completed",
+    "priority": "low",
+    "id": "8"
+  },
+  {
+    "content": "Update orchestrator with workflow templates",
+    "status": "completed",
+    "priority": "low",
+    "id": "9"
+  }
+]

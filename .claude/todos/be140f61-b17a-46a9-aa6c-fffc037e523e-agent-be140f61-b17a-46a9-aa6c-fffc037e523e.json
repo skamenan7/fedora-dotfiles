@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create new git repository structure for hands-on learning",
+    "status": "completed",
+    "priority": "high",
+    "id": "repo-setup"
+  },
+  {
+    "content": "Create interactive tests for error handling patterns",
+    "status": "completed",
+    "priority": "high",
+    "id": "error-handling-tests"
+  },
+  {
+    "content": "Create interactive tests for testing pattern examples",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "testing-pattern-tests"
+  },
+  {
+    "content": "Create interactive tests for Python idiom examples",
+    "status": "pending",
+    "priority": "high",
+    "id": "python-idiom-tests"
+  },
+  {
+    "content": "Create README and setup instructions",
+    "status": "completed",
+    "priority": "high",
+    "id": "setup-instructions"
+  }
+]

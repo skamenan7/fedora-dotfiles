@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Find and examine the LiteLLMOpenAIMixin class implementation",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Locate where litellm.completion() is called and trace model_id parameter",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Search for actual model routing logic beyond the simple OpenAI prefix handling",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Examine how different provider prefixes (gemini/, vertex_ai/, etc.) are handled",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Check LiteLLM configuration and model mapping mechanisms",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  }
+]

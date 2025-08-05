@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Fix performance test async context issues",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Adjust performance thresholds to realistic values",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  },
+  {
+    "content": "Fix AsyncMock setup in performance tests",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "Convert remaining sync tests to async",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  }
+]
